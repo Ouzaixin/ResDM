@@ -1,0 +1,5 @@
+This folder should contain three files: 
+1: data_info.csv (containing labels, age, and gender information of each ID)
+2: train.txt (containing IDs of training dataset, like '037S6046')；
+3: validation.txt (containing IDs of validation dataset)；
+4: test.txt (containing IDs of test dataset).
