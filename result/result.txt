@@ -1,0 +1,4 @@
+This folder stores 
+1: the checkpoint files of two models (Text_encoder and Unet);
+2: the loss log files;
+3: the indicator files (i.e., PSNR and SSIM).
