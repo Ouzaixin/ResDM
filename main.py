@@ -99,6 +99,7 @@ def train():
                     Intra_domain_loss = mse(torch.abs(Abeta-Tau),torch.abs(Abeta_out-Tau_out))
 
                 loss = MSE_loss * 10 + Intra_domain_loss
+                opt_model.zero_grad()
                 loss.backward()
                 opt_model.step()
                 ema.step_ema(ema_Unet, Unet)
